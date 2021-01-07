@@ -1,0 +1,308 @@
+
+
+/* ESTILO DA LOGIN */
+.espaçoL{
+    border: 3px solid black;
+    visibility: hidden;
+}
+.formlog input{
+    display: block;
+}
+.formlog{
+    border: 3px solid black;
+    text-align: center;
+    font-size: 25px;
+    height: 300px;
+    border-radius: 30px;
+}
+.formlog input,.formlog label{
+    width: 100%;
+}
+.formlog input{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.formlog button{
+    margin-top: 20px;
+}
+/* ESTILO DA TABELA */
+.icD{
+    max-width: 20px;
+}
+.zebrada{
+    background: silver;
+}
+th{
+    border-style: solid;
+}
+td{
+    border-right: solid;
+    border-left: solid;
+    border-top: solid;
+    border-color: black;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid black;
+    overflow: auto;
+
+}
+.formTable{
+    width: 950px;
+}
+textarea.formTable{
+    height: 100px;
+}
+.formTableQ{
+    width: 313px;
+
+}
+.cadp{
+    border-radius: 7px;
+    border-color: lightgray;
+    margin-bottom: 20px;
+}
+#btnSalvar{
+    margin-left: 610px;
+}
+#NP{
+    width: 250px;
+}
+#D{
+    width: 300px;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+#V{
+    width: 80px;
+}
+#A{
+    width: 80px;
+}
+#DES{
+    width: 80px;
+}
+
+/* ESTILO DO CADASTRO */
+
+.cad{
+    text-align: center;
+    justify-content: center;
+    
+}
+/* ESTILO DO PRODUTO */
+.desc{
+    margin-left: 35px;
+}
+.desc h4{
+    margin-top: initial;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.po, .pa, .ec{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.marg{
+    margin-left: 75px;
+}
+.negrito{
+    font-weight: bold;
+}
+.deco{
+    text-decoration: line-through;
+}
+.pa, .ec{
+    margin-top: 10px;
+}
+.produto img{
+    border: black;
+    border-style: solid;
+}
+/* ESTILO DO INDEX */
+.listaP{
+    list-style: none;
+
+}
+.listaP li{
+    border-style: solid;
+    border-color: black;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    clear: both;
+    max-height: 296px;
+    min-height: 296px;
+}
+.descPP{
+	max-height: 50px;
+	overflow: hidden;
+}
+.listaP h4{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.listaP p{
+    margin-top: 5px;
+}
+.listaP li img{
+    padding-left: 0;
+}
+.produtos{
+    background-color: whitesmoke;
+    position: relative;
+}
+/* ESTILO DO MENU */
+.dep{
+    font-weight: bold;
+    font-size: 21px;
+    width: 100%;
+}
+.submenu{
+    background-color: white;
+}
+.submenu h3{
+    margin: 0;;
+}
+.submenu h3 ul li{
+    display: inline-block;
+    padding: 18px;
+    text-align: center;
+    border: black;
+    border-left-style: solid;
+    
+}
+.submenu h3 ul li a:hover{
+    text-decoration: none;
+}
+.submenu h3 ul li:first-child{
+    border: none;
+    padding: 0;
+    margin-left: 40px;
+    padding-right: 20px;
+    size: 40px;
+}
+.submenu h3 ul li:last-child{
+    padding-left: 38px;
+}
+
+.submenu h3 ul{
+    margin: 0;
+    height: 60px;
+    border:solid;
+    border-width: 2px;
+    padding: 0%;
+}
+.submenu select{
+    border: none;
+    background-color:white;
+    font-weight: bold;
+    height: 100%;    
+}
+.car{
+    margin-top: 20px;;
+}
+.log{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.log a{
+    font-weight: normal;
+}
+.menu img{
+    width: 100%;
+    height: 100%;
+}
+.log a:hover{
+    text-decoration: underline;
+}
+.barra{
+    margin-top:40px;
+}
+.usr{
+    margin-top: 20px;
+}
+.header{
+    background-color: white;
+    width: 960px;
+    overflow: auto;
+    padding: 5px 0;
+    position: fixed;
+    left: 18.45%;    /* Posicionar */
+    z-index: 9999;
+}
+.header a:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: black;
+}
+.wrap{
+    overflow: auto; 
+}
+.linha2{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+    margin-top: 203.88px;
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+.col1{
+width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}

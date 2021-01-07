@@ -1,0 +1,50 @@
+
+#telacadProd h4{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: red;
+}
+#telacadProd input[type= text]{
+    text-align: center;
+    width: 480px;
+    height: 20px;
+    margin-bottom: 25px;
+    border: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#telacadProdinput[type= button],#telacadProd button, .btn,#btnlog{
+    width: 170px;
+    height: 50px;
+    border-radius: 13px;
+    border: white;
+    border-style: solid;
+    background-color: RoyalBlue;
+    color: white;    
+}
+button:hover, input[type= button], select{
+    cursor: pointer;
+}
+#telacadProd a,#telacadProd a:hover,#telacadProd a:visited{
+    color: white;
+    text-decoration: none;
+}
+#telacadProd label{
+    width: 500px;
+    height: 20px;
+    font-size: larger;
+}
+#telacadProd{
+    position: absolute;
+    left:35%;     /* Posicionar */
+    visibility: visible;
+    display: block;
+    border: black;
+    border-style: solid;
+    border-radius: 30px;
+    width: 500px;
+    height: 550px;
+}
